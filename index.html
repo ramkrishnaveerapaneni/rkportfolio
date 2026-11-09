@@ -4,9 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#070d1b">
-<meta name="description" content="Ramakrishna Veerapaneni — Technical Project Management, Program Delivery, SaaS Operations, Customer Success and GenAI Delivery.">
-<title>Ramakrishna Veerapaneni | Technical Project Manager</title>
-
+<meta name="description" content="Ramakrishna Veerapaneni — Project and Program Management, SaaS Operations, Customer Success and AI/GenAI Delivery.">
+<title>Ramakrishna Veerapaneni | Project & Program Management</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -312,9 +311,7 @@ font-size:13px;
 color:var(--muted);
 }
 
-section {
-padding:37px 0 54px;
-}
+section {padding:37px 0 54px}
 
 .kicker {
 font-size:11px;
@@ -489,9 +486,7 @@ color:var(--muted);
 font-size:14px;
 }
 
-.job li {
-margin:5px 0;
-}
+.job li {margin:5px 0}
 
 .cap-grid {
 display:grid;
@@ -542,9 +537,7 @@ font-size:16px;
 margin:0 0 12px;
 }
 
-.skillbox .pillset {
-margin:0;
-}
+.skillbox .pillset {margin:0}
 
 .credentials {
 display:grid;
@@ -558,23 +551,17 @@ margin:8px 0 0;
 color:var(--muted);
 }
 
-.credential-list li {
-padding:5px 0;
-}
+.credential-list li {padding:5px 0}
 
 .contact {
 padding:42px 28px;
 text-align:center;
 border:1px solid var(--line);
 border-radius:26px;
-background:
-radial-gradient(circle at 15% 15%,#145f7a55,transparent 45%),
-linear-gradient(120deg,#122747,#291744);
+background:radial-gradient(circle at 15% 15%,#145f7a55,transparent 45%),linear-gradient(120deg,#122747,#291744);
 }
 
-.contact h2 {
-margin-top:8px;
-}
+.contact h2 {margin-top:8px}
 
 .contact p {
 max-width:680px;
@@ -610,7 +597,6 @@ flex-wrap:wrap;
 }
 
 @media(max-width:900px) {
-
 .links {
 display:none;
 position:absolute;
@@ -624,177 +610,118 @@ flex-direction:column;
 align-items:flex-start;
 }
 
-.links.open {
-display:flex;
-}
-
-.menu {
-display:block;
-}
-
-.nav-cta {
-display:none;
-}
-
-.hero-grid {
-grid-template-columns:1fr;
-gap:15px;
-}
-
-.visual {
-grid-row:1;
-min-height:390px;
-}
-
-.portrait {
-height:370px;
-width:310px;
-}
-
-.orb {
-width:310px;
-height:330px;
-}
-
-.floating {
-right:calc(50% - 190px);
-}
-
-.metrics {
-grid-template-columns:1fr 1fr;
-}
-
-.metric:nth-child(2) {
-border-right:0;
-}
-
-.metric:nth-child(-n+2) {
-border-bottom:1px solid var(--line);
-}
-
-.method {
-grid-template-columns:1fr 1fr;
-}
-
-.cap-grid {
-grid-template-columns:1fr 1fr;
-}
-
+.links.open {display:flex}
+.menu {display:block}
+.nav-cta {display:none}
+.hero-grid {grid-template-columns:1fr;gap:15px}
+.visual {grid-row:1;min-height:390px}
+.portrait {height:370px;width:310px}
+.orb {width:310px;height:330px}
+.floating {right:calc(50% - 190px)}
+.metrics {grid-template-columns:1fr 1fr}
+.metric:nth-child(2) {border-right:0}
+.metric:nth-child(-n+2) {border-bottom:1px solid var(--line)}
+.method {grid-template-columns:1fr 1fr}
+.cap-grid {grid-template-columns:1fr 1fr}
 }
 
 @media(max-width:600px) {
-
-.wrap {
-width:min(100% - 30px,var(--max));
+.wrap {width:min(100% - 30px,var(--max))}
+nav {height:68px}
+.links {top:68px}
+.brand {font-size:14px}
+.mark {width:37px;height:37px}
+.hero {padding-top:35px}
+.visual {min-height:320px}
+.portrait {height:305px;width:255px;border-radius:26px}
+.orb {width:260px;height:270px}
+.floating {right:0;bottom:15px;padding:10px 12px}
+.floating strong {font-size:13px}
+.floating span {font-size:11px}
+h1 {font-size:43px}
+.intro {font-size:14px}
+.role {font-size:17px}
+.metrics {margin-bottom:28px}
+.metric {padding:16px}
+.metric b {font-size:22px}
+.metric span {font-size:11px}
+.section-head {display:block}
+.grid2,.credentials,.skill-groups {grid-template-columns:1fr}
+.method,.cap-grid {grid-template-columns:1fr 1fr}
+.card {padding:20px}
+.job {grid-template-columns:1fr;gap:4px}
+.jobbody {padding-left:18px}
+.date {padding:0}
+.contact {padding:30px 19px}
 }
 
-nav {
-height:68px;
+@media(prefers-reduced-motion:reduce) {
+html {scroll-behavior:auto}
+* {transition:none!important}
 }
 
-.links {
-top:68px;
+/* ===== Voice enhancement: section narration ===== */
+.voice-btn {
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:10px;
+  padding:8px 13px;
+  border:1px solid rgba(38,217,232,.38);
+  border-radius:999px;
+  background:rgba(16,33,58,.72);
+  color:#dffcff;
+  font:600 12px/1 "DM Sans",sans-serif;
+  cursor:pointer;
+  transition:transform .2s, border-color .2s, background .2s, box-shadow .2s;
 }
 
-.brand {
-font-size:14px;
+.voice-btn:hover {
+  transform:translateY(-1px);
+  border-color:var(--cyan);
+  background:#132b48;
+  box-shadow:0 8px 22px rgba(38,217,232,.12);
 }
 
-.mark {
-height:38px;
-width:38px;
+.voice-btn.is-playing {
+  border-color:var(--cyan);
+  background:linear-gradient(90deg,rgba(19,199,220,.16),rgba(71,124,255,.16));
+  box-shadow:0 0 0 1px rgba(38,217,232,.08), 0 8px 24px rgba(38,217,232,.10);
 }
 
-.hero {
-padding-top:45px;
+.voice-btn .voice-icon {
+  font-size:13px;
 }
 
-h1 {
-font-size:43px;
+.voice-btn .voice-label {
+  white-space:nowrap;
 }
 
-.hero-actions {
-align-items:stretch;
+.voice-status {
+  display:inline-block;
+  margin-left:9px;
+  color:#91a8c8;
+  font-size:11px;
+  vertical-align:middle;
+  opacity:0;
+  transition:opacity .2s;
 }
 
-.hero-actions .btn {
-width:100%;
+.voice-status.visible {
+  opacity:1;
 }
 
-.socials a {
-flex:1;
-text-align:center;
+@media(max-width:600px) {
+  .voice-btn {
+    margin-top:8px;
+  }
+
+  .voice-status {
+    display:block;
+    margin:7px 0 0;
+  }
 }
 
-.visual {
-min-height:360px;
-}
-
-.portrait {
-height:350px;
-width:280px;
-}
-
-.orb {
-width:280px;
-height:300px;
-}
-
-.floating {
-right:0;
-bottom:20px;
-}
-
-.metrics {
-grid-template-columns:1fr 1fr;
-}
-
-.metric {
-padding:18px 15px;
-}
-
-.metric b {
-font-size:23px;
-}
-
-.metric span {
-font-size:11px;
-}
-
-.section-head {
-align-items:flex-start;
-}
-
-.grid2,
-.method,
-.cap-grid,
-.skill-groups,
-.credentials {
-grid-template-columns:1fr;
-}
-
-.job {
-grid-template-columns:1fr;
-gap:4px;
-}
-
-.jobbody {
-padding-left:19px;
-}
-
-.contact {
-padding:35px 20px;
-}
-
-.contact-actions .btn {
-width:100%;
-}
-
-.foot {
-flex-direction:column;
-}
-
-}
 </style>
 </head>
 
@@ -810,31 +737,23 @@ flex-direction:column;
 </a>
 
 <div class="links" id="navLinks">
+<a href="#home">Home</a>
 <a href="#about">About</a>
 <a href="#experience">Experience</a>
 <a href="#capabilities">Capabilities</a>
 <a href="#skills">Skills</a>
-<a href="#credentials">Credentials</a>
 <a href="#contact">Contact</a>
 </div>
 
-<a class="nav-cta" href="#contact">Let’s connect ↗</a>
+<a class="nav-cta" href="#contact">✦ &nbsp; Get in touch</a>
 
-<button
-class="menu"
-id="menuBtn"
-aria-label="Open menu"
-aria-expanded="false">
-☰
-</button>
+<button class="menu" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
 
 </nav>
 </div>
 </header>
 
-
 <main>
-
 <div class="wrap">
 
 <section class="hero" id="home">
@@ -844,93 +763,99 @@ aria-expanded="false">
 <div>
 
 <div class="eyebrow">
-<i></i>
-TECHNICAL PROJECT MANAGEMENT · GENAI · SAAS
+<i></i> CUSTOMER SUCCESS · PMO · AI DELIVERY
 </div>
 
 <h1>
-Hi, I’m <span class="grad">Ramakrishna Veerapaneni.</span>
+Hi, I’m <span class="grad">Ramakrishna</span><br>
+Veerapaneni.
 </h1>
 
 <p class="role">
-Technical Project Manager · Program Delivery · GenAI & SaaS
+Project & Program Management |
+Technical Program Delivery |
+SaaS Operations |
+Customer Success |
+AI/GenAI Initiatives
 </p>
 
 <p class="intro">
-I bring structure to complex technology and business initiatives, connecting
-customers, Product, Engineering and Operations to turn business priorities
-into measurable outcomes. With 10+ years across technology and business
-services, I focus on technical project delivery, PMO governance, SaaS
-operations, customer success and AI/GenAI program execution.
+I bring structure to complex work connecting customers, Product,
+Engineering and Operations to turn business priorities into measurable
+outcomes. With 10+ years across technology and business services,
+I focus on SaaS customer success, delivery governance, operational
+excellence and AI/GenAI program execution.
 </p>
+
+<div class="voice-control">
+
+<button class="voice-btn" type="button" data-voice="hero">
+<span class="voice-icon">🔊</span>
+<span class="voice-label">Listen to my introduction</span>
+</button>
+
+<span class="voice-status" aria-live="polite"></span>
+
+</div>
 
 <div class="hero-actions">
 
 <a class="btn primary" href="#experience">
-Explore my experience →
+Explore my experience&nbsp; ↗
 </a>
 
-<a class="btn outline" href="#contact">
-Let’s talk
+<a class="btn outline" href="mailto:ramakrishna.veerapaneni@yahoo.com">
+✉ &nbsp; Contact me
 </a>
 
 </div>
 
 <div class="socials">
 
-<a href="https://www.linkedin.com/in/ramakrishna-veerapaneni-ab79a9293/"
-target="_blank"
-rel="noopener">
+<a href="https://www.linkedin.com/in/ramakrishna-veerapaneni-ab79a929/" target="_blank" rel="noopener">
 LinkedIn ↗
 </a>
 
-<a href="https://github.com/ramkrishnaveerapaneni"
-target="_blank"
-rel="noopener">
+<a href="https://github.com/ramkrishnaveerapaneni" target="_blank" rel="noopener">
 GitHub ↗
 </a>
 
 <a href="mailto:ramakrishna.veerapaneni@yahoo.com">
-Email
+Email ↗
 </a>
 
 </div>
 
 </div>
-
 
 <div class="visual">
 
 <div class="orb"></div>
 
 <div class="portrait">
-<img
-src="profile.png"
-alt="Ramakrishna Veerapaneni">
+<img src="profile.png" alt="Ramakrishna Veerapaneni">
 </div>
 
 <div class="floating">
 <strong>10+ years of impact</strong>
-<span>Project delivery · SaaS · Customer Success · AI/GenAI</span>
+<span>Operations · Delivery · SaaS · AI programs</span>
 </div>
 
 </div>
 
 </div>
-
 </section>
-
 
 <div class="metrics">
 
 <div class="metric">
-<b>10+</b>
-<span>Years across technology & business services</span>
+<b>10+ yrs</b>
+<span>Operations & delivery experience</span>
 </div>
 
 <div class="metric">
-<b>8+</b>
-<span>Years in team leadership & delivery</span>
+<b>4+ yrs</b>
+<span>Team leadership experience</span>
 </div>
 
 <div class="metric">
@@ -939,12 +864,11 @@ alt="Ramakrishna Veerapaneni">
 </div>
 
 <div class="metric">
-<b>4</b>
-<span>Major recognition & awards</span>
+<b>4 Awards</b>
+<span>Performance & service recognition</span>
 </div>
 
 </div>
-
 
 <section id="about">
 
@@ -952,65 +876,66 @@ alt="Ramakrishna Veerapaneni">
 
 <div>
 
-<div class="kicker">About me</div>
+<div class="kicker">A little about me</div>
 
 <h2>
-Built around <span class="grad">ownership & outcomes.</span>
+Turning complexity into <span class="grad">clear execution.</span>
 </h2>
 
 <p class="lead">
-I work at the intersection of customer outcomes, structured project delivery,
-operational discipline and technology execution.
+I work at the intersection of customer outcomes, operational discipline and technology delivery.
 </p>
 
-</div>
+<div class="voice-control">
+
+<button class="voice-btn" type="button" data-voice="about">
+<span class="voice-icon">🔊</span>
+<span class="voice-label">Listen to my About</span>
+</button>
+
+<span class="voice-status" aria-live="polite"></span>
 
 </div>
 
+</div>
+
+</div>
 
 <div class="grid2">
 
 <div class="card card-accent">
 
-<h3>What I do</h3>
+<h3>How I create value</h3>
 
 <p>
-I translate business and customer requirements into structured delivery plans,
-align technical and business teams around measurable outcomes, and make
-ownership visible across the project lifecycle. My focus is on turning
-complex requirements into executable workstreams rather than simply
-managing activity.
+Customers rarely leave because of one major failure. It is often the accumulation of slow handoffs, unclear ownership and recurring issues. I bring teams together, make accountability visible, and turn those signals into lasting improvements not just closed tickets.
 </p>
 
 <div class="pillset">
 
-<span class="pill">Business outcomes</span>
-<span class="pill">Technical delivery</span>
-<span class="pill">PMO governance</span>
+<span class="pill">Customer outcomes</span>
+<span class="pill">Delivery ownership</span>
+<span class="pill">Operational excellence</span>
 <span class="pill">Cross-functional leadership</span>
 
 </div>
 
 </div>
 
-
 <div class="card">
 
-<h3>How I work</h3>
+<h3>My operating principles</h3>
 
 <p>
-Clear owners. Transparent milestones. Risks surfaced early. Dependencies
-actively managed. Requirements translated into actionable deliverables.
-Quality, security and production readiness considered before release.
-These principles guide how I lead project delivery and operational change.
+Clear owners. Transparent milestones. Risks surfaced early. Root causes addressed. Processes documented and repeatable. These principles guide how I lead customer success, project delivery and operational change.
 </p>
 
 <div class="pillset">
 
 <span class="pill">Ownership</span>
-<span class="pill">Risk & dependency management</span>
-<span class="pill">Quality & readiness</span>
-<span class="pill">Executive communication</span>
+<span class="pill">Governance</span>
+<span class="pill">Continuous improvement</span>
+<span class="pill">Trust & communication</span>
 
 </div>
 
@@ -1019,7 +944,6 @@ These principles guide how I lead project delivery and operational change.
 </div>
 
 </section>
-
 
 <section>
 
@@ -1030,76 +954,57 @@ These principles guide how I lead project delivery and operational change.
 <div class="kicker">My approach</div>
 
 <h2>
-A simple operating system for <span class="grad">complex work.</span>
+From escalation to <span class="grad">lasting improvement.</span>
 </h2>
 
 <p class="lead">
-The goal is not more process. It is enough structure to help teams move faster
-with fewer surprises.
+A practical operating rhythm that keeps work visible and teams accountable.
 </p>
 
-</div>
+<div class="voice-control">
+
+<button class="voice-btn" type="button" data-voice="approach">
+<span class="voice-icon">🔊</span>
+<span class="voice-label">Hear my approach</span>
+</button>
+
+<span class="voice-status" aria-live="polite"></span>
 
 </div>
 
+</div>
+
+</div>
 
 <div class="method">
 
 <div class="step">
-
-<small>01</small>
-
-<b>Clarify</b>
-
-<p>
-Define the outcome, scope, success measures, stakeholders and constraints.
-</p>
-
+<small>01 / OWN</small>
+<b>Make ownership clear</b>
+<p>Assign one accountable owner and align the right teams around the outcome.</p>
 </div>
 
-
 <div class="step">
-
-<small>02</small>
-
-<b>Align</b>
-
-<p>
-Connect Product, Engineering, QA, Operations and business owners around one plan.
-</p>
-
+<small>02 / TRACK</small>
+<b>Surface risks early</b>
+<p>Track milestones, dependencies and blockers with shared visibility.</p>
 </div>
 
-
 <div class="step">
-
-<small>03</small>
-
-<b>Execute</b>
-
-<p>
-Track milestones, dependencies, risks, decisions and delivery commitments.
-</p>
-
+<small>03 / SOLVE</small>
+<b>Fix the root cause</b>
+<p>Use evidence and cross-team problem solving to prevent repeat issues.</p>
 </div>
 
-
 <div class="step">
-
-<small>04</small>
-
-<b>Improve</b>
-
-<p>
-Use data, feedback and root cause analysis to strengthen the next cycle.
-</p>
-
+<small>04 / STANDARDIZE</small>
+<b>Make it repeatable</b>
+<p>Update SOPs, workflows and operating reviews so improvements stick.</p>
 </div>
 
 </div>
 
 </section>
-
 
 <section id="experience">
 
@@ -1110,387 +1015,232 @@ Use data, feedback and root cause analysis to strengthen the next cycle.
 <div class="kicker">Career journey</div>
 
 <h2>
-Experience that compounds <span class="grad">over time.</span>
+Experience built on <span class="grad">delivery and leadership.</span>
 </h2>
 
 <p class="lead">
-10+ years across technology services, customer operations, SaaS and
-AI/GenAI delivery.
+A progression across SaaS, technology services, customer operations and large-scale delivery environments.
 </p>
 
-</div>
+<div class="voice-control">
+
+<button class="voice-btn" type="button" data-voice="experience">
+<span class="voice-icon">🔊</span>
+<span class="voice-label">Hear my career journey</span>
+</button>
+
+<span class="voice-status" aria-live="polite"></span>
 
 </div>
 
+</div>
+
+</div>
 
 <div class="timeline">
 
-
 <div class="job">
 
 <div class="date">
-FEB 2026 — PRESENT
-<br>
-<span class="location"> Hyderabad, India</span>
-</div>
-
-<div class="jobbody">
-
-<div class="jobtop">
-
-<h3>
-Customer Success & Operations Manager
-</h3>
-
-<span class="company">
-Mailora LLC
-</span>
-
-</div>
-
-<ul>
-
-<li>
-Lead end to end delivery of SaaS, AI/GenAI and LLM initiatives, from business
-requirement definition and solution planning through execution, validation
-and production readiness.
-</li>
-
-<li>
-Own project delivery across scope, objectives, milestones, dependencies,
-risks, issues, resource coordination and stakeholder commitments, ensuring
-initiatives remain aligned with business priorities.
-</li>
-
-<li>
-Orchestrate cross functional delivery across Product, Engineering, AI/ML,
-Data Science, QA, Cloud and business teams, creating clear ownership and
-accountability across technical workstreams.
-</li>
-
-<li>
-Coordinate technical initiatives involving LLMs, RAG, AI agents, APIs,
-cloud technologies, Java and emerging MCP/agentic architectures, translating
-business objectives into actionable technical deliverables.
-</li>
-
-<li>
-Partner with engineering and product stakeholders to convert business
-requirements and customer needs into user stories, acceptance criteria,
-technical work packages, delivery milestones and measurable outcomes.
-</li>
-
-<li>
-Establish project governance and operating cadence through Agile ceremonies,
-sprint planning, backlog refinement, delivery reviews, risk reviews,
-stakeholder updates and executive level reporting.
-</li>
-
-<li>
-Drive dependency and risk management across interconnected technical
-workstreams, proactively identifying blockers, assessing business impact
-and coordinating mitigation plans.
-</li>
-
-<li>
-Coordinate quality and production readiness activities across testing,
-integrations, release dependencies, operational handover and security
-considerations before deployment.
-</li>
-
-<li>
-Lead customer facing escalations and complex delivery issues by bringing
-together Product, Engineering and Operations teams, driving root cause
-analysis, corrective actions and clear stakeholder communication.
-</li>
-
-<li>
-Translate customer feedback, product signals and SaaS operational data
-into prioritized improvement opportunities, supporting product adoption,
-customer experience and platform maturity.
-</li>
-
-</ul>
-
-</div>
-
-</div>
-
-
-<div class="job">
-
-<div class="date">
-MAR 2025 — FEB 2026
-<br>
+FEB 2026 — PRESENT<br>
 <span class="location">Hyderabad, India</span>
 </div>
 
 <div class="jobbody">
 
 <div class="jobtop">
-
-<h3>
-Manager on Duty
-</h3>
-
-<span class="company">
-Meazure Learning
-</span>
-
+<h3>Customer Success & Operations Manager</h3>
+<span class="company">Mailora, LLC</span>
 </div>
 
 <ul>
 
-<li>
-Led high volume technology enabled service operations with accountability
-for service continuity, workforce readiness, productivity, quality,
-customer commitments and operational performance.
-</li>
+<li>Lead end to end delivery of SaaS, AI/GenAI and LLM initiatives, from business requirement definition and solution planning through execution, validation and production readiness.</li>
 
-<li>
-Directed real time operational execution across queue management,
-workload allocation, staffing coverage, shift coordination and critical
-incident escalation.
-</li>
+<li>Own project delivery across scope, objectives, milestones, dependencies, risks, issues, resource coordination and stakeholder commitments, ensuring initiatives remain aligned with business priorities.</li>
 
-<li>
-Owned daily operational performance reviews, analyzing KPI trends and
-service health indicators to identify performance gaps, emerging risks
-and corrective actions.
-</li>
+<li>Orchestrate cross functional delivery across Product, Engineering, AI/ML, Data Science, QA, Cloud and business teams, creating clear ownership and accountability across technical workstreams.</li>
 
-<li>
-Led cross functional resolution of operational incidents and customer
-impacting escalations, coordinating teams toward timely resolution while
-maintaining clear stakeholder communication.
-</li>
+<li>Coordinate technical initiatives involving LLMs, RAG, AI agents, APIs, cloud technologies, Java and emerging MCP/agentic architectures, translating business objectives into actionable technical deliverables.</li>
 
-<li>
-Partnered with Quality, Operations and customer facing stakeholders to
-perform root cause analysis and convert recurring issues into sustainable
-process improvements.
-</li>
+<li>Partner with engineering and product stakeholders to convert business requirements and customer needs into user stories, acceptance criteria, technical work packages, delivery milestones and measurable outcomes.</li>
 
-<li>
-Strengthened SOPs, operating controls, audit practices and performance
-reporting to improve consistency, accountability and operational governance.
-</li>
+<li>Establish project governance and operating cadence through Agile ceremonies, sprint planning, backlog refinement, delivery reviews, risk reviews, stakeholder updates and executive level reporting.</li>
 
-<li>
-Coordinated implementation of process, policy and technology changes,
-ensuring operational teams understood requirements, dependencies and
-execution expectations.
-</li>
+<li>Drive dependency and risk management across interconnected technical workstreams, proactively identifying blockers, assessing business impact and coordinating mitigation plans.</li>
 
-<li>
-Used workload trends, capacity data and operational performance indicators
-to support workforce planning and resource allocation decisions.
-</li>
+<li>Coordinate quality and production readiness activities across testing, integrations, release dependencies, operational handover and security considerations before deployment.</li>
+
+<li>Lead customer facing escalations and complex delivery issues by bringing together Product, Engineering and Operations teams, driving root cause analysis, corrective actions and clear stakeholder communication.</li>
+
+<li>Translate customer feedback, product signals and SaaS operational data into prioritized improvement opportunities, supporting product adoption, customer experience and platform maturity.</li>
+
+<li>Establish structured operating processes for customer success and SaaS operations, improving visibility into customer health, delivery status, risks, escalations and improvement initiatives.</li>
 
 </ul>
 
 </div>
-
 </div>
-
 
 <div class="job">
 
 <div class="date">
-APR 2022 — FEB 2025
-<br>
+MAR 2025 — FEB 2026<br>
 <span class="location">Hyderabad, India</span>
 </div>
 
 <div class="jobbody">
 
 <div class="jobtop">
-
-<h3>
-Assistant Manager
-</h3>
-
-<span class="company">
-GlobalLogic Technologies
-</span>
-
+<h3>Manager on Duty</h3>
+<span class="company">Meazure Learning</span>
 </div>
 
 <ul>
 
-<li>
-Led cross functional technology and business delivery initiatives,
-managing planning, execution, milestones, dependencies, risks, resources
-and stakeholder commitments across the project lifecycle.
-</li>
+<li>Led high volume technology enabled service operations with accountability for service continuity, workforce readiness, productivity, quality, customer commitments and operational performance.</li>
 
-<li>
-Translated business and client requirements into structured delivery plans,
-actionable workstreams, acceptance criteria and measurable outcomes in
-collaboration with Product, Engineering and QA teams.
-</li>
+<li>Directed real time operational execution across queue management, workload allocation, staffing coverage, shift coordination and critical incident escalation.</li>
 
-<li>
-Established project governance mechanisms covering milestone tracking,
-RAID management, status reporting, performance reviews, issue escalation
-and stakeholder communication.
-</li>
+<li>Owned daily operational performance reviews, analyzing KPI trends and service health indicators to identify performance gaps, emerging risks and corrective actions.</li>
 
-<li>
-Built and implemented a Project Performance Management Framework that
-improved operational efficiency by 30%, strengthening delivery visibility,
-accountability and performance management.
-</li>
+<li>Led cross functional resolution of operational incidents and customer impacting escalations, coordinating teams toward timely resolution while maintaining clear stakeholder communication.</li>
 
-<li>
-Managed resource planning and allocation across competing priorities,
-balancing delivery commitments, capacity constraints, timelines and
-business requirements.
-</li>
+<li>Partnered with Quality, Operations and customer facing stakeholders to perform root cause analysis and convert recurring issues into sustainable process improvements.</li>
 
-<li>
-Led cross functional project reviews to identify delivery risks,
-dependencies and blockers early and drive accountable owners toward
-resolution.
-</li>
+<li>Strengthened SOPs, operating controls, audit practices and performance reporting to improve consistency, accountability and operational governance.</li>
 
-<li>
-Coordinated communication between business stakeholders, technical teams
-and operational functions to maintain alignment throughout project execution.
-</li>
+<li>Coordinated implementation of process, policy and technology changes, ensuring operational teams understood requirements, dependencies and execution expectations.</li>
 
-<li>
-Developed management level reporting covering project health, progress
-against milestones, risks, dependencies, actions and business impact.
-</li>
+<li>Used workload trends, capacity data and operational performance indicators to support workforce planning and resource allocation decisions.</li>
+
+<li>Maintained delivery continuity in a high pressure environment by balancing competing priorities, operational risks, customer expectations and available resources.</li>
+
+<li>Provided leadership level visibility into operational health, risks, escalations, performance trends and improvement actions.</li>
 
 </ul>
 
 </div>
-
 </div>
-
 
 <div class="job">
 
 <div class="date">
-SEP 2017 — MAR 2022
-<br>
+APR 2022 — FEB 2025<br>
 <span class="location">Hyderabad, India</span>
 </div>
 
 <div class="jobbody">
 
 <div class="jobtop">
-
-<h3>
-POD Lead
-</h3>
-
-<span class="company">
-Teleperformance DIBS
-</span>
-
+<h3>Assistant Manager</h3>
+<span class="company">GlobalLogic</span>
 </div>
 
 <ul>
 
-<li>
-Led client facing operational delivery teams with accountability for
-service performance, productivity, quality, accuracy, workforce
-effectiveness and customer commitments.
-</li>
+<li>Led cross functional technology and business delivery initiatives, managing planning, execution, milestones, dependencies, risks, resources and stakeholder commitments across the project lifecycle.</li>
 
-<li>
-Directed daily execution across workload planning, resource allocation,
-performance management, escalations and service recovery.
-</li>
+<li>Translated business and client requirements into structured delivery plans, actionable workstreams, acceptance criteria and measurable outcomes in collaboration with Product, Engineering and QA teams.</li>
 
-<li>
-Served as a primary coordination point between client stakeholders,
-operations teams and internal support functions, ensuring issues were
-clearly owned and progressed to resolution.
-</li>
+<li>Established project governance mechanisms covering milestone tracking, RAID management, status reporting, performance reviews, issue escalation and stakeholder communication.</li>
 
-<li>
-Produced and presented weekly performance reporting, trend analysis and
-operational insights to senior stakeholders, highlighting risks,
-performance gaps and improvement opportunities.
-</li>
+<li>Built and implemented a Project Performance Management Framework that improved operational efficiency by 30%, strengthening delivery visibility, accountability and performance management.</li>
 
-<li>
-Led root cause analysis for recurring quality, productivity and service
-issues and converted findings into corrective actions, coaching plans
-and process improvements.
-</li>
+<li>Managed resource planning and allocation across competing priorities, balancing delivery commitments, capacity constraints, timelines and business requirements.</li>
 
-<li>
-Established stronger operating procedures and quality controls to improve
-consistency, process adherence and service outcomes.
-</li>
+<li>Led cross functional project reviews to identify delivery risks, dependencies and blockers early and drive accountable owners toward resolution.</li>
+
+<li>Coordinated communication between business stakeholders, technical teams and operational functions to maintain alignment throughout project execution.</li>
+
+<li>Developed management level reporting covering project health, progress against milestones, risks, dependencies, actions and business impact.</li>
+
+<li>Supported change initiatives by defining process requirements, documenting workflows, establishing operating procedures and tracking adoption.</li>
+
+<li>Used performance data and operational insights to identify improvement opportunities and drive measurable process and delivery improvements.</li>
 
 </ul>
 
 </div>
-
 </div>
-
 
 <div class="job">
 
 <div class="date">
-JUN 2016 — MAY 2017
-<br>
+SEP 2017 — MAR 2022<br>
 <span class="location">Hyderabad, India</span>
 </div>
 
 <div class="jobbody">
 
 <div class="jobtop">
-
-<h3>
-Analyst
-</h3>
-
-<span class="company">
-Intelenet Global Services
-</span>
-
+<h3>POD Lead</h3>
+<span class="company">Teleperformance</span>
 </div>
 
 <ul>
 
-<li>
-Analyzed existing operational workflows to identify communication,
-ownership and process gaps between commercial operations and field teams.
-</li>
+<li>Led client facing operational delivery teams with accountability for service performance, productivity, quality, accuracy, workforce effectiveness and customer commitments.</li>
 
-<li>
-Designed and introduced a structured departmental workflow approach that
-improved task visibility, communication and coordination across
-participating teams.
-</li>
+<li>Directed daily execution across workload planning, resource allocation, performance management, escalations and service recovery.</li>
 
-<li>
-Worked with business users to understand process requirements, document
-workflow gaps and identify opportunities for operational improvement.
-</li>
+<li>Served as a primary coordination point between client stakeholders, operations teams and internal support functions, ensuring issues were clearly owned and progressed to resolution.</li>
 
-<li>
-Supported implementation of improved processes by coordinating
-stakeholders, clarifying responsibilities and monitoring adoption.
-</li>
+<li>Produced and presented weekly performance reporting, trend analysis and operational insights to senior stakeholders, highlighting risks, performance gaps and improvement opportunities.</li>
+
+<li>Led root cause analysis for recurring quality, productivity and service issues and converted findings into corrective actions, coaching plans and process improvements.</li>
+
+<li>Established stronger operating procedures and quality controls to improve consistency, process adherence and service outcomes.</li>
+
+<li>Coached team members and emerging leaders on performance management, stakeholder communication, problem solving and operational discipline.</li>
+
+<li>Managed competing operational priorities while maintaining service levels and responding to time sensitive client escalations.</li>
+
+<li>Used performance trends and operational data to identify improvement opportunities and support data driven management decisions.</li>
+
+<li>Built a culture of accountability through clear expectations, structured performance reviews, continuous feedback and measurable goals.</li>
 
 </ul>
 
 </div>
+</div>
 
+<div class="job">
+
+<div class="date">
+JUN 2016 — MAY 2017<br>
+<span class="location">Hyderabad, India</span>
+</div>
+
+<div class="jobbody">
+
+<div class="jobtop">
+<h3>Analyst</h3>
+<span class="company">Intelenet Global Services</span>
+</div>
+
+<ul>
+
+<li>Analyzed existing operational workflows to identify communication, ownership and process gaps between commercial operations and field teams.</li>
+
+<li>Designed and introduced a structured departmental workflow approach that improved task visibility, communication and coordination across participating teams.</li>
+
+<li>Worked with business users to understand process requirements, document workflow gaps and identify opportunities for operational improvement.</li>
+
+<li>Supported implementation of improved processes by coordinating stakeholders, clarifying responsibilities and monitoring adoption.</li>
+
+<li>Prepared operational information and reports to support issue resolution, workflow visibility and management decision making.</li>
+
+<li>Contributed to process standardization and documentation initiatives aimed at improving execution consistency and stakeholder responsiveness.</li>
+
+</ul>
+
+</div>
 </div>
 
 </div>
 
 </section>
-
 
 <section id="capabilities">
 
@@ -1505,111 +1255,77 @@ Core <span class="grad">delivery capabilities.</span>
 </h2>
 
 <p class="lead">
-A blend of structured PMO practices, customer focused operations and
-technical program coordination.
+A blend of structured PMO practices, customer focused operations and technical program coordination.
 </p>
 
-</div>
+<div class="voice-control">
+
+<button class="voice-btn" type="button" data-voice="capabilities">
+<span class="voice-icon">🔊</span>
+<span class="voice-label">Hear my capabilities</span>
+</button>
+
+<span class="voice-status" aria-live="polite"></span>
 
 </div>
 
+</div>
+
+</div>
 
 <div class="cap-grid">
 
 <div class="cap">
 <span class="num">01 / PMO</span>
-
-<h3>
-Technical project governance
-</h3>
-
+<h3>Technical project governance</h3>
 <p>
-Planning, scope, milestones, RAID management, dependencies, change control,
-delivery reporting and stakeholder cadence across technology initiatives.
+Planning, scope, milestones, RAID management, dependencies, change control, delivery reporting and stakeholder cadence.
 </p>
-
 </div>
-
 
 <div class="cap">
 <span class="num">02 / CUSTOMER</span>
-
-<h3>
-Customer success & SaaS
-</h3>
-
+<h3>Customer success & SaaS</h3>
 <p>
-Customer health, adoption, escalations, service performance, retention
-signals and SaaS operating processes connected to measurable outcomes.
+Customer health, adoption, escalations, service performance, retention signals and SaaS operating processes.
 </p>
-
 </div>
-
 
 <div class="cap">
 <span class="num">03 / AI PROGRAMS</span>
-
-<h3>
-AI / GenAI program delivery
-</h3>
-
+<h3>AI / GenAI program delivery</h3>
 <p>
-Coordinating LLM, AI/ML, RAG, AI agents, MCP, cloud and API workstreams
-from requirements through testing and production readiness.
+Coordinating LLM, AI/ML, RAG, agentic workflows, MCP, cloud and API workstreams from requirements through production readiness.
 </p>
-
 </div>
-
 
 <div class="cap">
 <span class="num">04 / PEOPLE</span>
-
-<h3>
-Cross functional leadership
-</h3>
-
+<h3>Cross functional leadership</h3>
 <p>
-Aligning Product, Engineering, QA, AI/ML, Data Science, Operations and
-business stakeholders around scope, priorities and measurable outcomes.
+Aligning Product, Engineering, QA, AI/ML, Data Science, Operations and business stakeholders around measurable outcomes.
 </p>
-
 </div>
-
 
 <div class="cap">
 <span class="num">05 / IMPROVEMENT</span>
-
-<h3>
-Process & operational excellence
-</h3>
-
+<h3>Process & operational excellence</h3>
 <p>
-Root cause analysis, corrective actions, workflow optimization,
-SOP governance and measurable efficiency improvement.
+Root cause analysis, corrective actions, workflow optimization, SOP governance and measurable efficiency improvement.
 </p>
-
 </div>
-
 
 <div class="cap">
 <span class="num">06 / EXECUTION</span>
-
-<h3>
-Agile delivery & readiness
-</h3>
-
+<h3>Agile delivery & readiness</h3>
 <p>
-Agile ceremonies, backlog coordination, dependency management, testing,
-release planning, security considerations, production readiness and
-executive communication.
+Agile ceremonies, backlog coordination, dependency management, testing, release planning, production readiness and executive communication.
 </p>
-
 </div>
 
 </div>
 
 </section>
-
 
 <section id="skills">
 
@@ -1623,19 +1339,26 @@ executive communication.
 Skills that support <span class="grad">execution.</span>
 </h2>
 
-</div>
+<div class="voice-control">
+
+<button class="voice-btn" type="button" data-voice="skills">
+<span class="voice-icon">🔊</span>
+<span class="voice-label">Listen to my skills</span>
+</button>
+
+<span class="voice-status" aria-live="polite"></span>
 
 </div>
 
+</div>
+
+</div>
 
 <div class="skill-groups">
 
-
 <div class="skillbox">
 
-<h3>
-Project & Program Management
-</h3>
+<h3>Project & Program Management</h3>
 
 <div class="pillset">
 
@@ -1649,19 +1372,14 @@ Project & Program Management
 <span class="pill">Milestone tracking</span>
 <span class="pill">Agile / Scrum</span>
 <span class="pill">Release coordination</span>
-<span class="pill">Stakeholder management</span>
-<span class="pill">Executive reporting</span>
 
 </div>
 
 </div>
-
 
 <div class="skillbox">
 
-<h3>
-AI, GenAI & Technical Delivery
-</h3>
+<h3>AI, GenAI & Technical Delivery</h3>
 
 <div class="pillset">
 
@@ -1673,20 +1391,16 @@ AI, GenAI & Technical Delivery
 <span class="pill">Cloud delivery</span>
 <span class="pill">API integrations</span>
 <span class="pill">Java workstream coordination</span>
-<span class="pill">Technical requirements</span>
 <span class="pill">Production readiness</span>
-<span class="pill">Quality & security coordination</span>
+<span class="pill">Technical requirements</span>
 
 </div>
 
 </div>
-
 
 <div class="skillbox">
 
-<h3>
-Customer & Operations
-</h3>
+<h3>Customer & Operations</h3>
 
 <div class="pillset">
 
@@ -1704,12 +1418,9 @@ Customer & Operations
 
 </div>
 
-
 <div class="skillbox">
 
-<h3>
-Platforms & Ways of Working
-</h3>
+<h3>Platforms & Ways of Working</h3>
 
 <div class="pillset">
 
@@ -1731,8 +1442,7 @@ Platforms & Ways of Working
 
 </section>
 
-
-<section id="credentials">
+<section>
 
 <div class="section-head">
 
@@ -1744,75 +1454,54 @@ Platforms & Ways of Working
 Credentials and <span class="grad">foundation.</span>
 </h2>
 
-</div>
+<div class="voice-control">
+
+<button class="voice-btn" type="button" data-voice="credentials">
+<span class="voice-icon">🔊</span>
+<span class="voice-label">Hear my credentials</span>
+</button>
+
+<span class="voice-status" aria-live="polite"></span>
 
 </div>
 
+</div>
+
+</div>
 
 <div class="credentials">
 
 <div class="card">
 
-<h3>
-Certifications & recognition
-</h3>
+<h3>Certifications & recognition</h3>
 
 <ul class="credential-list">
 
-<li>
-Six Sigma Green Belt (CSSGB)
-</li>
-
-<li>
-Lean Six Sigma Yellow Belt
-</li>
-
-<li>
-Google Project Management
-</li>
-
-<li>
-Operations and Performance Management Professional
-</li>
-
-<li>
-Employee of the Year — 2020 & 2022
-</li>
-
-<li>
-Best Lead · Annual Excellence Award
-</li>
-
-<li>
-Apple Inc. recognition for partnership and service excellence
-</li>
+<li>Six Sigma Green Belt (CSSGB)</li>
+<li>Lean Six Sigma Yellow Belt</li>
+<li>Google Project Management</li>
+<li>Operations and Performance Management Professional</li>
+<li>Employee of the Year — 2020 & 2022</li>
+<li>Best Lead · Annual Excellence Award</li>
+<li>Apple Inc. recognition for partnership and service excellence</li>
 
 </ul>
 
 </div>
 
-
 <div class="card">
 
-<h3>
-Education
-</h3>
+<h3>Education</h3>
 
 <ul class="credential-list">
 
 <li>
-<strong>
-MBA, Information Technology
-</strong>
-<br>
+<strong>MBA, Information Technology</strong><br>
 Vignan’s Foundation for Science, Technology & Research · 2023–2025
 </li>
 
 <li>
-<strong>
-BTech, Computer Science
-</strong>
-<br>
+<strong>BTech, Computer Science</strong><br>
 Andhra University · 2011–2015
 </li>
 
@@ -1824,37 +1513,38 @@ Andhra University · 2011–2015
 
 </section>
 
-
 <section id="contact">
 
 <div class="contact">
 
-<div class="kicker">
-Let’s connect
-</div>
+<div class="kicker">Let’s connect</div>
 
 <h2>
 Have a challenge worth <span class="grad">solving?</span>
 </h2>
 
 <p>
-I’m open to conversations around Technical Project Management,
-Program Management, SaaS, AI/GenAI delivery, PMO and technology leadership.
+I’m open to conversations around Customer Success, SaaS Operations, PMO, Delivery Management and AI/GenAI Technical Program Management.
 </p>
+
+<div class="voice-control">
+
+<button class="voice-btn" type="button" data-voice="contact">
+<span class="voice-icon">🔊</span>
+<span class="voice-label">Hear my closing message</span>
+</button>
+
+<span class="voice-status" aria-live="polite"></span>
+
+</div>
 
 <div class="contact-actions">
 
-<a
-class="btn primary"
-href="mailto:ramakrishna.veerapaneni@yahoo.com">
+<a class="btn primary" href="mailto:ramakrishna.veerapaneni@yahoo.com">
 ✉ &nbsp; Email Ramakrishna
 </a>
 
-<a
-class="btn outline"
-href="https://www.linkedin.com/in/ramakrishna-veerapaneni-ab79a9293/"
-target="_blank"
-rel="noopener">
+<a class="btn outline" href="https://www.linkedin.com/in/ramakrishna-veerapaneni-ab79a929/" target="_blank" rel="noopener">
 Connect on LinkedIn ↗
 </a>
 
@@ -1862,9 +1552,7 @@ Connect on LinkedIn ↗
 
 <p style="margin-top:17px">
 
-<a
-class="email"
-href="mailto:ramakrishna.veerapaneni@yahoo.com">
+<a class="email" href="mailto:ramakrishna.veerapaneni@yahoo.com">
 ramakrishna.veerapaneni@yahoo.com
 </a>
 
@@ -1875,9 +1563,7 @@ ramakrishna.veerapaneni@yahoo.com
 </section>
 
 </div>
-
 </main>
-
 
 <footer>
 
@@ -1895,46 +1581,243 @@ Built around ownership, clarity and measurable outcomes.
 
 </footer>
 
+<!-- ===== Voice enhancement: shared section audio player ===== -->
+
+<audio id="sectionVoiceAudio" preload="metadata"></audio>
 
 <script>
 
-const menuBtn = document.getElementById('menuBtn');
-const navLinks = document.getElementById('navLinks');
+(() => {
+
+  const audio = document.getElementById('sectionVoiceAudio');
+
+  const buttons = [...document.querySelectorAll('[data-voice]')];
+
+  const voiceFiles = {
+    hero: 'voice/01-hero.mp3',
+    about: 'voice/02-about.mp3',
+    approach: 'voice/03-approach.mp3',
+    experience: 'voice/04-experience.mp3',
+    capabilities: 'voice/05-capabilities.mp3',
+    skills: 'voice/06-skills.mp3',
+    credentials: 'voice/07-credentials.mp3',
+    contact: 'voice/08-contact.mp3'
+  };
+
+  let activeButton = null;
+
+  function setButtonState(button, playing) {
+
+    if (!button) return;
+
+    const label = button.querySelector('.voice-label');
+    const icon = button.querySelector('.voice-icon');
+    const status = button.parentElement.querySelector('.voice-status');
+
+    button.classList.toggle('is-playing', playing);
+
+    if (playing) {
+
+      if (label) {
+        label.textContent = 'Pause narration';
+      }
+
+      if (icon) {
+        icon.textContent = '⏸';
+      }
+
+      if (status) {
+
+        status.textContent =
+          'Playing Ramakrishna’s voice…';
+
+        status.classList.add('visible');
+
+      }
+
+    } else {
+
+      if (label) {
+        label.textContent =
+          button.dataset.defaultLabel ||
+          'Listen to this section';
+      }
+
+      if (icon) {
+        icon.textContent = '🔊';
+      }
+
+      if (status) {
+
+        status.textContent = '';
+
+        status.classList.remove('visible');
+
+      }
+
+    }
+
+  }
+
+  buttons.forEach(button => {
+
+    button.dataset.defaultLabel =
+      button.querySelector('.voice-label')?.textContent ||
+      'Listen to this section';
+
+    button.addEventListener('click', () => {
+
+      const key = button.dataset.voice;
+
+      const src = voiceFiles[key];
+
+      if (!src) return;
+
+      if (
+        activeButton === button &&
+        !audio.paused
+      ) {
+
+        audio.pause();
+
+        setButtonState(button, false);
+
+        return;
+
+      }
+
+      if (
+        activeButton &&
+        activeButton !== button
+      ) {
+
+        setButtonState(
+          activeButton,
+          false
+        );
+
+      }
+
+      if (
+        audio.src !==
+        new URL(
+          src,
+          window.location.href
+        ).href
+      ) {
+
+        audio.src = src;
+
+      }
+
+      activeButton = button;
+
+      setButtonState(
+        button,
+        true
+      );
+
+      audio.play().catch(() => {
+
+        setButtonState(
+          button,
+          false
+        );
+
+        if (statusMessage(button)) {
+
+          statusMessage(button).textContent =
+            'Add the voice file in /voice to enable playback.';
+
+          statusMessage(button)
+            .classList.add('visible');
+
+        }
+
+      });
+
+    });
+
+  });
+
+  audio.addEventListener('ended', () => {
+
+    setButtonState(
+      activeButton,
+      false
+    );
+
+    activeButton = null;
+
+  });
+
+  audio.addEventListener('pause', () => {
+
+    if (activeButton) {
+
+      setButtonState(
+        activeButton,
+        false
+      );
+
+    }
+
+  });
+
+  function statusMessage(button) {
+
+    return button
+      ?.parentElement
+      ?.querySelector('.voice-status');
+
+  }
+
+})();
+
+</script>
+
+<script>
+
+const menuBtn =
+  document.getElementById('menuBtn');
+
+const navLinks =
+  document.getElementById('navLinks');
 
 menuBtn.addEventListener('click', () => {
 
-const open = navLinks.classList.toggle('open');
+  const open =
+    navLinks.classList.toggle('open');
 
-menuBtn.setAttribute(
-'aria-expanded',
-String(open)
-);
+  menuBtn.setAttribute(
+    'aria-expanded',
+    String(open)
+  );
 
-menuBtn.textContent = open ? '×' : '☰';
+  menuBtn.textContent =
+    open ? '×' : '☰';
 
 });
-
 
 navLinks.querySelectorAll('a').forEach(a => {
 
-a.addEventListener('click', () => {
+  a.addEventListener('click', () => {
 
-navLinks.classList.remove('open');
+    navLinks.classList.remove('open');
 
-menuBtn.setAttribute(
-'aria-expanded',
-'false'
-);
+    menuBtn.setAttribute(
+      'aria-expanded',
+      'false'
+    );
 
-menuBtn.textContent = '☰';
+    menuBtn.textContent = '☰';
+
+  });
 
 });
-
-});
-
 
 document.getElementById('year').textContent =
-new Date().getFullYear();
+  new Date().getFullYear();
 
 </script>
 
